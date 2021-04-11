@@ -3,46 +3,44 @@
 .nav-header1 {
     display: flex;
     font-size: 12px;
-    background-color: cadetblue;
     justify-content: flex-end;
     align-items: center;
 }
 
-.nav-header2 {
-    display: flex;
-    justify-content: flex-end; 
-    align-content: flex-end;   
-}
-
-.about {
-    color: black;
-    border: 2px black soli;
-    margin-left: 20px;
+.about, .store {
+    color: #222;
+    text-decoration: none;
     font-size: 14px;
     font-family: arial,sans-serif;
 }
 
+.gmail, .images {
+    color: rgb(0, 0, 0, 0,);
+    text-decoration: none;
+}
+
+.about {
+    margin-left: 20px;
+    font-family: arial,sans-serif;
+}
+
 .store {
-    border: 2px black solid;
+    margin-left: 20px;
 }
 
 .gmail {
-    flex:"";
-    border: 2px black solid;
+    margin-right: 20px;
 }
 
 .images {
-    flex:"";
-    border: 2px black solid;
-    flex-basis: 100px;
+    margin-right: 20px;
 }
 
 .google-apps {
-
+    margin-right: 20px;
 }
 
 .sign-in-button {
-    flex:"";
     background-color: #1a73e8;
     justify-content: flex-end;
     border: 0px black solid;
@@ -57,7 +55,6 @@ button {
     padding: 10px;
     padding-right: 25px;
     padding-left: 25px;
-    margin:
 }
 
 .img-container {
@@ -81,6 +78,7 @@ button {
     display: flex;
     align-items: center;
     box-sizing: border-box;
+    padding: 6px;
 }
 
 .test2 {
