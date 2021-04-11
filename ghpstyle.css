@@ -4,7 +4,8 @@
     display: flex;
     font-size: 12px;
     background-color: cadetblue;
-    flex: 1;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 .nav-header2 {
@@ -14,18 +15,14 @@
 }
 
 .about {
-    flex: 1;
     color: black;
-    flex-basis: 2px;
     border: 2px black soli;
-    width: 20px;
     margin-left: 20px;
     font-size: 14px;
     font-family: arial,sans-serif;
 }
 
 .store {
-    flex: 1;
     border: 2px black solid;
 }
 
@@ -78,4 +75,15 @@ button {
     justify-content: center;
     margin-top: 10px;
     border: none;
+}
+
+.test {
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.test2 {
+    display: inline-block;
+    flex-grow: 1   ;
 }
