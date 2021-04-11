@@ -5,7 +5,19 @@
     flex-direction: column;
 }
 
-.hright-buttons {
+.headmain {
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 6px;
+}
+
+.headsecond {
+    display: inline-block;
+    flex-grow: 1;
+}
+
+.headright-buttons {
     display: flex;
     font-size: 12px;
     justify-content: flex-end;
@@ -62,18 +74,6 @@ button {
     justify-content: center;
     margin-top: 10px;
     border: none;
-}
-
-.test {
-    display: flex;
-    align-items: center;
-    box-sizing: border-box;
-    padding: 6px;
-}
-
-.test2 {
-    display: inline-block;
-    flex-grow: 1   ;
 }
 
 .about:hover, .store:hover, .gmail:hover, .images:hover {
