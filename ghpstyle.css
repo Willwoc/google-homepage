@@ -1,6 +1,11 @@
 /*CSS Style for my Google Home Page Project */
 
-.nav-header1 {
+.mainflex {
+    display: flex;
+    flex-direction: column;
+}
+
+.hright-buttons {
     display: flex;
     font-size: 12px;
     justify-content: flex-end;
@@ -9,30 +14,15 @@
 
 .about, .store {
     color: #222;
-    text-decoration: none;
     font-size: 14px;
+    text-decoration: none;
+    margin-left: 20px;
     font-family: arial,sans-serif;
 }
 
 .gmail, .images {
     color: rgba(0, 0, 0, 0.87);
     text-decoration: none;
-}
-
-.about {
-    margin-left: 20px;
-    font-family: arial,sans-serif;
-}
-
-.store {
-    margin-left: 20px;
-}
-
-.gmail {
-    margin-right: 20px;
-}
-
-.images {
     margin-right: 20px;
 }
 
