@@ -1,23 +1,22 @@
 /*CSS Style for my Google Home Page Project */
 
-.nav-header {
+.nav-header1 {
     display: flex;
     font-size: 12px;
-    justify-content: space-between;
-    align-items: center;
-    border: 1px black soli;
-    margin: 
+    background-color: cadetblue;
+    flex: 1;
 }
 
-/*.nav-header1 {
+.nav-header2 {
     display: flex;
-    flex-direction: column-reverse;
-}*/
+    justify-content: flex-end; 
+    align-content: flex-end;   
+}
 
 .about {
     flex: 1;
     color: black;
-    flex-shrink: 1;
+    flex-basis: 2px;
     border: 2px black soli;
     width: 20px;
     margin-left: 20px;
@@ -26,20 +25,17 @@
 }
 
 .store {
-    flex:1;
+    flex: 1;
     border: 2px black solid;
-    flex-shrink: 10px;
-    justify-self: flex-start;
-    margin-right: 600px;
 }
 
 .gmail {
-    flex:1;
+    flex:"";
     border: 2px black solid;
 }
 
 .images {
-    flex:1;
+    flex:"";
     border: 2px black solid;
     flex-basis: 100px;
 }
@@ -49,7 +45,7 @@
 }
 
 .sign-in-button {
-    flex:1;
+    flex:"";
     background-color: #1a73e8;
     justify-content: flex-end;
     border: 0px black solid;
@@ -69,10 +65,17 @@ button {
 
 .img-container {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 500px;
+    flex-direction: row;
+    align-items: flex-end ;
+    justify-content: center;
+    height: 300px;
+}
 
-img {
-    object-position: bottom;
+.searchbar-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end ;
+    justify-content: center;
+    margin-top: 10px;
+    border: none;
 }
