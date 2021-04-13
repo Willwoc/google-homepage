@@ -24,6 +24,10 @@
     align-items: center;
 }
 
+.about:hover, .store:hover, .gmail:hover, .images:hover {
+    text-decoration: underline;
+}
+
 .about, .store {
     color: #222;
     font-size: 14px;
@@ -69,13 +73,57 @@ button {
 
 .searchbar-container {
     display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+    border-radius: 24px;
+    margin-top: 30px;
+}
+
+.searchbar-box {
+    display: flex;
     flex-direction: row;
-    align-items: flex-end ;
+    align-items: center;
     justify-content: center;
     margin-top: 10px;
     border: none;
 }
 
-.about:hover, .store:hover, .gmail:hover, .images:hover {
-    text-decoration: underline;
+.searchbar {
+    border: none;
+    outline: none;
+    display: flex;
+    margin-bottom: 10px;
+    font: 16px arial, sans-serif;
+}
+
+.test1:hover {
+    box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.125);
+
+}
+
+input {
+    border: "";
+    display: flex;
+    flex: "";
+}
+
+.searchbar-container2 {
+    display: flex;
+    flex: "";
+    justify-content: "";
+    background: #fff;
+    border: 1px #dfe1e5 solid;
+    padding-right: 15px;
+    padding-left: 15px;
+    border-radius: 25px;
+    margin: auto;
+}
+
+.searchlogo {
+    display: block;
+    height: 25%;
+    width: 25%;
+    margin: auto;
+    margin-right: 10px;
+    size: 10%;
 }
