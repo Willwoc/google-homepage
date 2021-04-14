@@ -40,27 +40,39 @@
     color: rgba(0, 0, 0, 0.87);
     text-decoration: none;
     margin-right: 20px;
+    font-family: Roboto;
+    font-size: 13px;
 }
 
 .google-apps {
-    margin-right: 20px;
-}
-
-.sign-in-button {
-    background-color: #1a73e8;
-    justify-content: flex-end;
-    border: 0px black solid;
+    margin-right: 0px;
     text-align: center;
 }
 
-button {
+/*.google-happss:hover {
+    background: red;
+    border-radius: 50px;
+    height: 30px;
+    width: 30px;
+}*/
+
+.sign-in-button {
     color: white;
     background-color: #1a73e8;
     border-radius: 5px;
     font-size: 14px;
+    text-align: center;
     padding: 10px;
     padding-right: 25px;
     padding-left: 25px;
+    text-decoration: none;
+    font-family: Roboto;
+    margin-left: 20px;
+}
+
+.sign-in-button:hover {
+    background: #2b7de9;
+    box-shadow: 0 1px 2px 0 rgba(66,133,244,0.3),0 1px 3px 1px rgba(66,133,244,0.15);
 }
 
 .img-container {
@@ -96,15 +108,9 @@ button {
     font: 16px arial, sans-serif;
 }
 
-.test1:hover {
+.searchbar-container2:hover {
     box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.125);
 
-}
-
-input {
-    border: "";
-    display: flex;
-    flex: "";
 }
 
 .searchbar-container2 {
@@ -126,4 +132,31 @@ input {
     margin: auto;
     margin-right: 10px;
     size: 10%;
+}
+
+.middle-buttons {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    font-size: 14px;
+    margin: 11px 4px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    font-family: arial, sans-serif;
+    color: #3c4043;
+    margin-top: 20px;
+    padding: 10px 15px;
+}
+
+.middle-buttons:hover {
+    box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.125);
+}
+
+.bottom-space {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: center;
+    height: 600px;
 }
