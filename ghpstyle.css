@@ -203,4 +203,6 @@ body, html {
 .leaf {
     height: 15px;
     width: 15px;
+    display: block;
+    padding: 15px;
 }
