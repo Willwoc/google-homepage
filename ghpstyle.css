@@ -1,8 +1,13 @@
 /*CSS Style for my Google Home Page Project */
 
+body, html {
+    height: 100%;
+}
+
 .mainflex {
     display: flex;
     flex-direction: column;
+    height: 100%;
 }
 
 .headmain {
@@ -153,10 +158,39 @@
     box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.125);
 }
 
-.bottom-space {
+/*.bottom-space {
     display: flex;
     flex-direction: row;
     align-items: flex-end;
     justify-content: center;
     height: 600px;
+}*/
+
+.bottom-midflex {
+    flex-grow: 1;
+    background: red;
+    box-sizing: border-box;
+}
+
+.footer {
+    background: #f2f2f2;
+    flex-shrink: 0;
+    box-sizing: border-box;
+}
+
+.bottom-mainflex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.bottom-leftflex {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.advert {
+    display: block;
+    padding: 15px;
 }
