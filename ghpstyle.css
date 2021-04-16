@@ -190,7 +190,17 @@ body, html {
     flex-wrap: wrap;
 }
 
+.bottom-middleflex {
+        display: flex;
+        justify-content: space-between;
+}
+
 .advert {
     display: block;
     padding: 15px;
+}
+
+.leaf {
+    height: 15px;
+    width: 15px;
 }
