@@ -16,7 +16,7 @@ body, html {
     display: flex;
     align-items: center;
     box-sizing: border-box;
-    padding: 17px 17px 10px 10px;
+    padding: 10px 17px 10px 5px;
 }
 
 .headsecond {
@@ -39,7 +39,7 @@ body, html {
     color: #222;
     font-size: 14px;
     text-decoration: none;
-    margin-left: 20px;
+    margin-left: 21px;
     font-family: arial,sans-serif;
 }
 
@@ -54,14 +54,19 @@ body, html {
 .google-apps {
     margin-right: 0px;
     text-align: center;
+    display: inline-block;
+    box-sizing: border-box;
+    height: 40px;
+    width: 40px;
+    vertical-align: middle;
+    padding: 8px;
 }
 
-/*.google-happss:hover {
-    background: red;
-    border-radius: 50px;
-    height: 30px;
-    width: 30px;
-}*/
+.google-happs:hover {
+    background-color: rgba(60,64,67,0.08);
+    border-radius: 50%;
+    outline: none;
+}
 
 .sign-in-button {
     color: white;
@@ -74,7 +79,7 @@ body, html {
     padding-left: 27px;
     text-decoration: none;
     font-family: Roboto;
-    margin-left: 20px;
+    margin-left: 15px;
 }
 
 .sign-in-button:hover {
@@ -87,7 +92,7 @@ body, html {
     flex-direction: row;
     align-items: flex-end ;
     justify-content: center;
-    height: 300px;
+    height: 290px;
 }
 
 .searchbar-container {
@@ -183,6 +188,7 @@ body, html {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    padding: 0px 20px;
 }
 
 .bottom-leftflex {
@@ -197,7 +203,7 @@ body, html {
         display: flex;
         justify-content: center;
         order: 2;
-
+        align-items: center;
         flex-wrap: wrap;
 }
 
