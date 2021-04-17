@@ -2,6 +2,7 @@
 
 body, html {
     height: 100%;
+    font-family: Arial, sans-serif;
     font-size: 14px;
 }
 
@@ -15,7 +16,7 @@ body, html {
     display: flex;
     align-items: center;
     box-sizing: border-box;
-    padding: 6px;
+    padding: 17px 17px 10px 10px;
 }
 
 .headsecond {
@@ -69,8 +70,8 @@ body, html {
     font-size: 14px;
     text-align: center;
     padding: 10px;
-    padding-right: 25px;
-    padding-left: 25px;
+    padding-right: 27px;
+    padding-left: 27px;
     text-decoration: none;
     font-family: Roboto;
     margin-left: 20px;
@@ -169,7 +170,6 @@ body, html {
 
 .bottom-midflex {
     flex-grow: 1;
-    background: red;
     box-sizing: border-box;
 }
 
@@ -189,21 +189,31 @@ body, html {
     display: flex;
     justify-content: flex-start;
     flex-wrap: wrap;
+    min-width: 30%;
+    order: 1;
 }
 
 .bottom-middleflex {
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
+        order: 2;
+
+        flex-wrap: wrap;
 }
 
 .bottom-rightflex {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
+    min-width: 30%;
+    order: 3;
+    flex-wrap: wrap;
 }
 
 .advert {
     display: block;
     padding: 15px;
+    text-decoration: none;
+    color: #70757a;
 }
 
 .leaf {
@@ -216,4 +226,6 @@ body, html {
 
 .cnslink {
     padding: 15px 15px 15px 2px;
+    text-decoration: none;
+    color: #70757a;
 }
