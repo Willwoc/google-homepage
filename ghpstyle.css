@@ -2,6 +2,7 @@
 
 body, html {
     height: 100%;
+    font-size: 14px;
 }
 
 .mainflex {
@@ -195,14 +196,24 @@ body, html {
         justify-content: space-between;
 }
 
+.bottom-rightflex {
+    display: flex;
+    justify-content: space-between;
+}
+
 .advert {
     display: block;
     padding: 15px;
 }
 
 .leaf {
-    height: 15px;
-    width: 15px;
+    height: 14px;
+    width: 14px;
     display: block;
-    padding: 15px;
+    padding: 15px 2px 15px 15px;
+    
+}
+
+.cnslink {
+    padding: 15px 15px 15px 2px;
 }
