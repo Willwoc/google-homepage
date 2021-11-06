@@ -234,3 +234,13 @@ body, html {
     text-decoration: none;
     color: #70757a;
 }
+
+@media only screen and (max-width: 1200px) {
+    .bottom-middleflex {
+        width: 100%;
+        order: 0;
+    }
+    .bottom-mainflex {
+        justify-content: space-evenly;
+    }
+}
